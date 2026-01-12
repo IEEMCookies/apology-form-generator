@@ -248,7 +248,7 @@ function updatePreview() {
   ctx.stroke();
 
   ctx.fillText(`本人 ${apologizerUnderline} 在此向 ${playerName} 道歉`, canvas.width / 2, declarationY);
-  ctx.fillText(`並保證${promise}`, canvas.width / 2, declarationY + 30);
+  ctx.fillText(`并保证${promise}`, canvas.width / 2, declarationY + 30);
 }
 
 // Download the canvas image
